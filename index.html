@@ -1,44 +1,43 @@
 <!DOCTYPE html>
 
- <!--[if lt IE 9]>
+<!--[if lt IE 9]>
 	    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-	  <![endif]-->
+	  
+<![endif]-->
 
 <html>
 	<head>
 		<title>A|X HTML5 Version</title>
-		<meta charset=UTF-8>
-		<link type="text/css" rel="stylesheet" href="hw1">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link type="text/css" rel="stylesheet" href="hw1.css">
+		<link href='http://fonts.googleapis.com/css?family=Marcellus+SC&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+
 	</head>
 
 	<body>
 		<header>
-			<img src="AX.png" alt="A|X logo" />
+				<a href="https://www.armaniexchange.com/"><img src="AX.png" width="148" height="75" border=0></a>
+				<h1 class=hidden>ARMANI EXCHANGE</h1>
 		</header>
 
 		<article>
-			<h1>
-				<li><a href="http://www.armaniexchange.com/home.do">ARMANI EXCHANGE</a></li>
-			</h1>
-			<p>Armani Exchange is the youthful fashion label created by Italian designer Giorgio Armani.</p>
+			<h4 class="italic">Armani Exchange is the youthful fashion label created by Italian designer Giorgio Armani.</h4>
 		</article>
 
-		<hr/>
-
 		<nav>
-			<ul>
-				<li><a href="https://www.armaniexchange.com/account/login.do?method=view">LOG IN </a></li>
-                                <li><a href="http://www.armaniexchange.com/category/customer+service/where+is+my+order/check+order+status.do">ORDER STATUS</a></li>
-                                <li><a href="http://www.armaniexchange.com/storelocator.do">FIND A STORE</a></li>
-                                <li><a href="http://www.armaniexchange.com/category/customer+service.do">CUSTOMER SERVICE</a></li>
-                                <li><a href="http://www.armaniexchange.com/basket.do">MY BAG</a></li>
+			<ul class="customer">
+				<li><a href="https://www.armaniexchange.com/account/login.do?method=view">LOG IN</a></li>
+	            <li><a href="http://www.armaniexchange.com/category/customer+service/where+is+my+order/check+order+status.do">ORDER STATUS</a></li>
+	            <li><a href="http://www.armaniexchange.com/storelocator.do">FIND A STORE</a></li>
+	            <li><a href="http://www.armaniexchange.com/category/customer+service.do">CUSTOMER SERVICE</a></li>
+	            <li><a href="http://www.armaniexchange.com/basket.do">MY BAG</a></li>
 			</ul>
 		</nav>
 
-		<hr/>
-
-		<nav>
-			<ul>
+		<nav class=hidden>
+			<ul class="category">
 				<li><a href="http://www.armaniexchange.com/category/mens.do">MENS</a></li>
 				<li><a href="http://www.armaniexchange.com/category/womens.do">WOMEN</a></li>
 				<li><a href="http://www.armaniexchange.com/category/denim.do">DENIM</a></li>
@@ -47,41 +46,53 @@
 				<li><a href="http://www.armaniexchange.com/category/sale.do">SALE</a></li>
 			</ul>
 		</nav>
-		
+
+		</hr>
+
+		<div class=piclink>
+			<a href="http://www.armaniexchange.com/category/mens.do"><img src="Man.png" width="426" height="434" border=0 style="
+    margin-left: 30px; margin-right:10px; margin-top:20px; margin-bottom:10px;
+"></a>
+			<a href="http://www.armaniexchange.com/category/womens.do"><img src="Woman.png" width="427" height="434" border=0 style="
+    margin-left: 10px; margin-right:30px; margin-top:20px; margin-bottom:10px;
+"></a>
+			<a href="http://www.armaniexchange.com/category/accessories.do"><img src="Accessory.png" width="948" height="591" border=0 style="margin-top: 10px; margin-bottom:10px;"></a>
+			<a href="http://www.armaniexchange.com/category/denim.do"><img src="Denim.png" width="949" height="530" border=0 style="margin-top: 10px; margin-bottom:10px;"></a>
+			<a href="http://www.armaniexchange.com/category/sales.do"><img src="Sale.png" width="950" height="589" border=0 style="margin-top: 10px; margin-bottom:10px;"></a>
+		</div>
+
 		<hr/>
 
 		<nav>
-			<ul>
+			<ul class="social">
 				<li><a href="https://www.facebook.com/armaniexchange">Facebook</a></li>
-                                <li><a href="https://twitter.com/armaniexchange">Twitter</a></li>
-                                <li><a href="http://www.pinterest.com/armaniexchange/">Pinterest</a></li>
-                                <li><a href="http://instagram.com/armaniexchange">Instagram</a></li>
-                                <li><a href="http://www.youtube.com/user/armaniexchange">Youtube</a></li>
+                <li><a href="https://twitter.com/armaniexchange">Twitter</a></li>
+				<li><a href="http://www.pinterest.com/armaniexchange/">Pinterest</a></li>
+                <li><a href="http://instagram.com/armaniexchange">Instagram</a></li>
+                <li><a href="http://www.youtube.com/user/armaniexchange">Youtube</a></li>
 			</ul>
 		</nav>
-		
+
 		<hr/>
 
 		<nav>
-			<ul>
-            			<li><a href="http://armani.com">Armani.com</a></li>
-            			<li><a href="http://www.armaniexchange.com/jump.do?itemID=5&itemType=LANDING&ax=brand">A|X Brand</a></li>
-           	 		<li><a href="http://www.armaniexchange.com/jump.do?itemID=5&itemType=LANDING&ax=careers">A|X Careers</a></li>
-            			<li><a href="http://www.armaniexchange.com/category/customer+service/shipping+information.do">Shipping</a></li>
-            			<li><a href="http://www.armaniexchange.com/category/customer+service/returns+%26+exchanges.do">Returns</a></li>
-         	   		<li><a href="http://www.armaniexchange.com/product/gift+card.do">Gift Cards</a></li>
-            			<li><a href="http://www.armaniexchange.com/ancillary/sitemap.do">Site Map</a></li>
-            			<li><a href="http://www.armaniexchange.com/category/customer+service/site+terms.do">Terms</a></li>
-            			<li><a href="http://www.armaniexchange.com/category/customer+service/privacy+%26+security.do">Privacy</a></li>
-          		</ul>
+			<ul class="related">
+            	<li><a href="http://www.armaniexchange.com/jump.do?itemID=5&itemType=LANDING&ax=brand">A|X Brand</a></li>
+           	 	<li><a href="http://www.armaniexchange.com/jump.do?itemID=5&itemType=LANDING&ax=careers">A|X Careers</a></li>
+            	<li><a href="http://www.armaniexchange.com/category/customer+service/shipping+information.do">Shipping</a></li>
+            	<li><a href="http://www.armaniexchange.com/category/customer+service/returns+%26+exchanges.do">Returns</a></li>
+         	   	<li><a href="http://www.armaniexchange.com/product/gift+card.do">Gift Cards</a></li>
+            	<li><a href="http://www.armaniexchange.com/ancillary/sitemap.do">Site Map</a></li>
+            	<li><a href="http://www.armaniexchange.com/category/customer+service/privacy+%26+security.do">Privacy</a></li>
+          	</ul>
 		</nav>
-		
+
 		<hr/>
 
 		<footer>  
-      			<p>Copyright 2013 Armani Exchange all rights reserved.</p>       
-    		</footer>  
-		
+      		<p>Copyright 2013 Armani Exchange all rights reserved.</p>       
+    	</footer>  
+
 	</body>
 
 </html>

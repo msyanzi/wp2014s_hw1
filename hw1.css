@@ -11,7 +11,7 @@ html {
 
 body {
 	font-family: 'Cursive', 'Marcellus SC', 'LiHei Pro' ;
-	
+
 }
 
 header{
@@ -70,12 +70,12 @@ footer{
 
 .category li:nth-child(even){
 	background-color:rgba(255,255,255,0.3);
-	
+
 }
 
 .category li:nth-child(odd){
 	background-color:rgba(255,255,255,0.7);
-	
+
 }
 
 .piclink{
@@ -93,7 +93,7 @@ footer{
 	border-radius:0.5em;
 	margin:1em;
 	display:inline;
-	
+
 }
 
 .related {
@@ -106,5 +106,5 @@ footer{
 	border-radius:0.5em;
 	margin:1em;
 	display:inline;
-	
+
 }
