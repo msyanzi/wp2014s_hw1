@@ -1,0 +1,105 @@
+html {
+	padding-left:15em;
+	padding-right:15em;
+	background: url(background.jpg) repeat;
+}
+
+
+.hidden{
+	display:none;
+}
+
+body {
+	font-family: 'Cursive', 'Marcellus SC', 'LiHei Pro' ;
+}
+
+header{
+	float:left;
+}
+
+footer{
+	font-style: italic;
+	text-decoration:underline;
+}
+
+.italic{
+	font-style: italic;
+	padding-left:170px;
+	margin-top:1.5em;
+	text-decoration:underline;
+}
+
+.customer {
+	list-style-type:none;
+	padding-left:170px;
+	margin-top:1.5em;
+
+}
+
+.customer li{
+	padding:0.5em;
+	border-radius:0.5em;
+	margin:1em;
+	display:inline;
+	box-shadow: inset 0 2px 1px rgba(255,255,255,0.2), 0 2px 1px rgba(0,0,0,0.8);
+}
+
+.customer li:nth-child(even){
+	background-color:rgba(255,255,255,0.3);
+}
+
+.customer li:nth-child(odd){
+	background-color:rgba(255,255,255,0.7);
+}
+
+.category {
+	list-style-type:none;
+	padding-left:0px;
+	padding-right:770px;
+	margin-top:40px;
+}
+
+.category li{
+	padding:0.5em;
+	border-radius:0.5em;
+	margin:1em;
+	box-shadow: inset 0 2px 1px rgba(255,255,255,0.2), 0 2px 1px rgba(0,0,0,0.8);
+}
+
+.category li:nth-child(even){
+	background-color:rgba(255,255,255,0.3);
+	margin-left:0px;
+}
+
+.category li:nth-child(odd){
+	background-color:rgba(255,255,255,0.7);
+	margin-left:0px;
+}
+
+
+.social {
+	position:relative;
+	padding-left:160px;
+	padding-right:150px;
+}
+
+.social li{
+	padding:0.5em;
+	border-radius:0.5em;
+	margin:1em;
+	display:inline;
+	
+}
+
+.related {
+	position:relative;
+
+}
+
+.related li{
+	padding:0.5em;
+	border-radius:0.5em;
+	margin:1em;
+	display:inline;
+	
+}
